@@ -1,0 +1,51 @@
+.itemContainer {
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px red;
+  margin: 20px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.itemImage {
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+ 
+}
+
+.itemTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.itemName {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.itemButton {
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
